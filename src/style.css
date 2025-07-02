@@ -1,0 +1,70 @@
+body {
+  background: #f5f1fe;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+a {
+    color: #7b256d;
+}
+
+.container {
+  margin: 60px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #7b256d;
+}
+
+form {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.03);
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.instructions {
+    padding: 15px;
+    border: 2px solid #7b256d;
+    width: 70%;
+    font-size: 16px;
+    border-radius: 25px;
+    line-height: 20px;
+    color: #000;
+}
+
+.submit-button {
+    margin-left: 10px;
+    background-color: #7b256d;
+    width: 150px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 25px;
+}
+
+.poem {
+    font-size: 16px;
+    background-color: #fff;
+    padding: 20px;
+    line-height: 2;
+    border-left: 3px solid #7b256d;
+    box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.03);
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+}
