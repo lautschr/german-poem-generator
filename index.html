@@ -15,20 +15,23 @@
       </header>
 
       <main>
-        <form id="poem-generator-form">
-          <input
-            class="instructions"
-            id="user-instructions"
-            type="text"
-            placeholder="Enter the topic of the German poem"
-            autofocus
-            required
-            autocomplete="off"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              class="instructions"
+              id="user-instructions"
+              type="text"
+              placeholder="Enter the topic of a German poem"
+              autofocus
+              required
+              autocomplete="off"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">z.B.: Wien, Blume oder Sonne</div>
+        </div>
 
-        <div class="poem" id="poem"></div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
